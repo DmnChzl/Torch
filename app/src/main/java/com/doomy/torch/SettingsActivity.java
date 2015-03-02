@@ -143,8 +143,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             updateWidget();
         }
         if (key.equals(KEY_COLOR)) {
-            mPrefBright = mPreferences.getBoolean("mPrefBright", false);
-            if(mScreen.isChecked()&&!mPrefBright) {
+            if(mScreen.isChecked()) {
                 AlertDialog mAlertDialog = new AlertDialog.Builder(SettingsActivity.this).create();
 
                 mAlertDialog.setTitle(getString(R.string.mode));
