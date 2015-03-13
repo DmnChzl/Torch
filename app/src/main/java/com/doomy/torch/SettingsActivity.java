@@ -143,6 +143,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             updateWidget();
         }
         if (key.equals(KEY_COLOR)) {
+            mPrefBright = mPreferences.getBoolean("mPrefBright", false);
             if(mScreen.isChecked()) {
                 AlertDialog mAlertDialog = new AlertDialog.Builder(SettingsActivity.this).create();
 
@@ -151,7 +152,10 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
                 mAlertDialog.setButton(getString(R.string.no), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        mPrefBright = mPreferences.edit().putBoolean("mPrefBright", false).commit();
+                        if(mPrefBright) {
+                            mPrefBright = mPreferences.edit().putBoolean("mPrefBright", false).commit();
+                            Toast.makeText(mContext, getString(R.string.discolored), Toast.LENGTH_SHORT).show();
+                        }
                         dialog.dismiss();
                     }
                 });
