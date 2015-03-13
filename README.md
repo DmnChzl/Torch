@@ -17,11 +17,11 @@ This includes features like :
 - android.permission.WAKE_LOCK
 - android.permission.BROADCAST_STICKY
 
-#Google Play
+#QR Code
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.torch">
-  <img alt="Android app on Google Play"
-       src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
+  <img alt="QR Code Torch"
+       src="https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/qrcode.png" />
 </a>
 
 #Screenshots
