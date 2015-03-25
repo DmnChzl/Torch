@@ -19,12 +19,13 @@
 
 <resources>
 
-    <style name="MaterialDialog" parent="android:Theme.Material.Light">
-        <item name="android:textColor">@color/redDark</item>
+    <style name="MaterialDialog" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:colorAccent">@color/red</item>
     </style>
 
-    <style name="HoloDialog" parent="android:Theme.Holo.Light">
-        <item name="android:windowBackground">@color/greyEmpty</item>
+    <style name="HoloDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@color/materialLight</item>
     </style>
 
     <style name="MaterialTranslucent" parent="android:Theme.Material.NoActionBar.TranslucentDecor">

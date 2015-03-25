@@ -58,6 +58,7 @@
     <color name="greyDark">#616161</color> <!-- Grey 700 -->
     <color name="blueGrey">#607d8b</color> <!-- Blue Grey 500 -->
     <color name="blueGreyDark">#455a64</color> <!-- Blue Grey 700 -->
-    <color name="material">#303030</color> <!-- Material -->
+    <color name="material">#424242</color> <!-- Material -->
+    <color name="materialLight">#eeeeee</color> <!-- Material Light -->
 
 </resources>

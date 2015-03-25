@@ -28,10 +28,12 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.GradientDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.Display;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -274,11 +276,12 @@ public class MainActivity extends Activity {
         mValue = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("mValue", true);
 
         if (mValue) {
-            AlertDialog mAlertDialog = new AlertDialog.Builder(MainActivity.this).create();
+            // ContextThemeWrapper mThemeWrapper = new ContextThemeWrapper(MainActivity.this, setThemeDialog());
+            AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(MainActivity.this, setThemeDialog());
 
             mAlertDialog.setTitle(getString(R.string.hello));
             mAlertDialog.setMessage(getString(R.string.first));
-            mAlertDialog.setButton(getString(R.string.okay), new DialogInterface.OnClickListener() {
+            mAlertDialog.setPositiveButton(getString(R.string.okay), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     Utils.deviceHasCameraFlash(mContext);
@@ -289,6 +292,18 @@ public class MainActivity extends Activity {
 
             getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("mValue", false).commit();
         }
+    }
+
+    private int setThemeDialog() {
+
+        int mTheme;
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mTheme = R.style.MaterialDialog;
+        } else {
+            mTheme = R.style.HoloDialog;
+        }
+        return mTheme;
     }
 	
 	public static MainActivity getInstance() {

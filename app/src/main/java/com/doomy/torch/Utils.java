@@ -41,7 +41,7 @@ public class Utils {
 	/**
      * Check if the device has a camera flash.
      *
-     * @return TThe preference value.
+     * @return The preference value.
      */
     public static boolean deviceHasCameraFlash(Context context) {
         mPreferences = PreferenceManager.getDefaultSharedPreferences(context);

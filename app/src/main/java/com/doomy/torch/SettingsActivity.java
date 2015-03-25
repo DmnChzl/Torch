@@ -96,18 +96,18 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
         mHide.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                AlertDialog mAlertDialog = new AlertDialog.Builder(SettingsActivity.this).create();
+                AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(SettingsActivity.this);
 
                 mAlertDialog.setTitle(getString(R.string.title));
                 mAlertDialog.setMessage(getString(R.string.message));
-                mAlertDialog.setButton(getString(R.string.no), new DialogInterface.OnClickListener() {
+                mAlertDialog.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         getPackageManager().setComponentEnabledSetting(new ComponentName("com.doomy.torch", "com.doomy.torch.LaunchActivity"), PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
                         dialog.dismiss();
                     }
                 });
-                mAlertDialog.setButton2(getString(R.string.yes), new DialogInterface.OnClickListener() {
+                mAlertDialog.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         getPackageManager().setComponentEnabledSetting(new ComponentName("com.doomy.torch", "com.doomy.torch.LaunchActivity"), PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
@@ -120,7 +120,6 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
                 return false;
             }
         });
-
 
         enablementKeys();
 
@@ -145,11 +144,11 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
         if (key.equals(KEY_COLOR)) {
             mPrefBright = mPreferences.getBoolean("mPrefBright", false);
             if(mScreen.isChecked()) {
-                AlertDialog mAlertDialog = new AlertDialog.Builder(SettingsActivity.this).create();
+                AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(SettingsActivity.this);
 
                 mAlertDialog.setTitle(getString(R.string.mode));
                 mAlertDialog.setMessage(getString(R.string.apply));
-                mAlertDialog.setButton(getString(R.string.no), new DialogInterface.OnClickListener() {
+                mAlertDialog.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         if(mPrefBright) {
@@ -159,7 +158,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
                         dialog.dismiss();
                     }
                 });
-                mAlertDialog.setButton2(getString(R.string.yes), new DialogInterface.OnClickListener() {
+                mAlertDialog.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         mPrefBright = mPreferences.edit().putBoolean("mPrefBright", true).commit();
@@ -270,13 +269,12 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             }
         });
 
-        ContextThemeWrapper mContextThemeWrapper = new ContextThemeWrapper(SettingsActivity.this, setThemeDialog());
-		
-        AlertDialog mAlertDialog = new AlertDialog.Builder(mContextThemeWrapper).create();
+        // ContextThemeWrapper mThemeWrapper = new ContextThemeWrapper(SettingsActivity.this, setThemeDialog());
+        AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(SettingsActivity.this, setThemeDialog());
 
         mAlertDialog.setTitle(getString(R.string.about));
         mAlertDialog.setView(mView);
-        mAlertDialog.setButton(getString(R.string.okay), new DialogInterface.OnClickListener() {
+        mAlertDialog.setPositiveButton(getString(R.string.okay), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
