@@ -4,10 +4,10 @@ This is a simple flashlight app, free and without ads.
 
 This includes features like :
 - Flash camera
-- Display illumination
+- Lighting of the screen
 - SOS mode
-- Widget flashlight
-- Hide icon
+- Flashlight widget
+- Hide the icon
 - Color customization
 
 #Permissions
@@ -31,6 +31,7 @@ This includes features like :
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_3_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_4_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_1_small.png)
+![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_2_small.png)
 
 #License
 
