@@ -25,22 +25,22 @@
     </style>
 
     <style name="HoloDialog" parent="android:Theme.Holo.Light.Dialog">
-        <item name="android:windowBackground">@color/materialLight</item>
+        <item name="android:windowBackground">@color/greyMaterialDark</item>
     </style>
 
     <style name="MaterialTranslucent" parent="android:Theme.Material.NoActionBar.TranslucentDecor">
-        <item name="android:colorPrimary">@color/material</item>
+        <item name="android:colorPrimary">@color/greyMaterialDark</item>
     </style>
 
     <style name="HoloTranslucent" parent="android:Theme.Holo.NoActionBar.TranslucentDecor">
-        <item name="android:windowBackground">@color/material</item>
+        <item name="android:windowBackground">@color/greyMaterialDark</item>
     </style>
 
     <style name="HoloWithoutBar" parent="android:Theme.Holo">
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@color/material</item>
+        <item name="android:windowBackground">@color/greyMaterialDark</item>
     </style>
 
     <style name="Material" parent="android:Theme.Material">
@@ -50,7 +50,7 @@
 
     <style name="Holo" parent="android:Theme.Holo">
         <item name="android:icon">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/material</item>
+        <item name="android:windowBackground">@color/greyMaterialDark</item>
     </style>
 
 </resources>

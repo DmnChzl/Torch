@@ -36,7 +36,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -269,7 +268,6 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             }
         });
 
-        // ContextThemeWrapper mThemeWrapper = new ContextThemeWrapper(SettingsActivity.this, setThemeDialog());
         AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(SettingsActivity.this, setThemeDialog());
 
         mAlertDialog.setTitle(getString(R.string.about));

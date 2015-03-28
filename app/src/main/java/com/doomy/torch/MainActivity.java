@@ -33,7 +33,6 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.ContextThemeWrapper;
 import android.view.Display;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -75,7 +74,6 @@ public class MainActivity extends Activity {
 
         // Open "Hello" dialog at the first launch
         openFirstDialog();
-
 
         mTorchOn = false;
 
@@ -276,7 +274,6 @@ public class MainActivity extends Activity {
         mValue = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("mValue", true);
 
         if (mValue) {
-            // ContextThemeWrapper mThemeWrapper = new ContextThemeWrapper(MainActivity.this, setThemeDialog());
             AlertDialog.Builder mAlertDialog = new AlertDialog.Builder(MainActivity.this, setThemeDialog());
 
             mAlertDialog.setTitle(getString(R.string.hello));

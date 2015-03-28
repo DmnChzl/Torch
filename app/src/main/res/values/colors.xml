@@ -54,11 +54,11 @@
     <color name="brown">#795548</color> <!-- Brown 500 -->
     <color name="brownDark">#5d4037</color> <!-- Brown 700 -->
     <color name="greyEmpty">#fafafa</color> <!-- Grey 50 -->
+    <color name="greyMaterialLight">#eeeeee</color> <!-- Grey 200 -->
     <color name="grey">#9e9e9e</color> <!-- Grey 500 -->
     <color name="greyDark">#616161</color> <!-- Grey 700 -->
+    <color name="greyMaterialDark">#424242</color> <!-- Grey 800 -->
     <color name="blueGrey">#607d8b</color> <!-- Blue Grey 500 -->
     <color name="blueGreyDark">#455a64</color> <!-- Blue Grey 700 -->
-    <color name="material">#424242</color> <!-- Material -->
-    <color name="materialLight">#eeeeee</color> <!-- Material Light -->
 
 </resources>
