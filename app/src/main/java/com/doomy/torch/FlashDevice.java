@@ -17,11 +17,6 @@
 
 package com.doomy.torch;
 
-import java.io.FileWriter;
-import java.io.IOException;
-
-import javax.microedition.khronos.opengles.GL10;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.SurfaceTexture;
@@ -32,6 +27,11 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.microedition.khronos.opengles.GL10;
 
 public class FlashDevice {
 

@@ -17,8 +17,6 @@
 
 package com.doomy.torch;
 
-import java.util.List;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
@@ -29,6 +27,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import java.util.List;
 
 public class TorchSwitch extends BroadcastReceiver {
 

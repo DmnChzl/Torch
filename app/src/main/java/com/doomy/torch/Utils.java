@@ -17,8 +17,6 @@
 
 package com.doomy.torch;
 
-import java.util.List;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
@@ -30,6 +28,8 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
+
+import java.util.List;
 
 public class Utils {
 

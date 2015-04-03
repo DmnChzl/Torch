@@ -44,8 +44,8 @@ public class MainActivity extends Activity {
 
     // Declaring your view and variables
     private static final String TAG = "MainActivity";
-    private static final int ANIMATION_DURATION = 800;
-    private static final int DEMI_DURATION = 400;
+    private static final int ANIMATION_DURATION = 1000;
+    private static final int DEMI_DURATION = 500;
 	private static MainActivity mActivity;
 	private TorchWidgetProvider mWidgetProvider;
     private boolean mTorchOn;
