@@ -18,15 +18,15 @@
 -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageViewMrDoomy"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:layout_width="@dimen/image_widht"
         android:layout_height="@dimen/image_height"
         android:layout_centerHorizontal="true"
@@ -34,10 +34,10 @@
 
     <ImageView
         android:id="@+id/imageViewStudio"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:layout_width="@dimen/image_widht"
         android:layout_height="@dimen/image_height"
         android:layout_centerHorizontal="true"
@@ -45,9 +45,9 @@
 
     <TextView
         android:id="@+id/textViewAbout"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/developer"
@@ -58,9 +58,9 @@
 
     <TextView
         android:id="@+id/textViewCopyright"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -72,9 +72,9 @@
 
     <ImageView
         android:id="@+id/imageViewGitHub"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:layout_width="@dimen/size_github"
         android:layout_height="@dimen/size_github"
         android:layout_gravity="center"

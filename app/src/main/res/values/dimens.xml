@@ -26,6 +26,6 @@
     <dimen name="size_image">125dp</dimen>
     <dimen name="image_widht">285dp</dimen>
     <dimen name="image_height">150dp</dimen>
-    <dimen name="size_github">50dp</dimen>
+    <dimen name="size_github">60dp</dimen>
 
 </resources>
