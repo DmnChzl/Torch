@@ -23,6 +23,7 @@
     <string name="about">About</string>
     <string name="add">Add</string>
     <string name="apply">Apply to the screen ?</string>
+    <string name="auto">Automatic</string>
     <string name="color">Color</string>
     <string name="colorful">Colorful screen</string>
     <string name="copyright" translatable="false">Copyright &#169; 2014 Damien Chazoule</string>

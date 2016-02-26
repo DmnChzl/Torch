@@ -50,6 +50,7 @@ public class MainActivity extends Activity {
 	private TorchWidgetProvider mWidgetProvider;
     private boolean mTorchOn;
 	private boolean mValue;
+	private boolean mLaunch;
     private float mFullScreenScale;
 	private ImageView mImageViewShape;
     private ImageView mImageViewOff;
@@ -82,6 +83,8 @@ public class MainActivity extends Activity {
         mImageViewShape = (ImageView) findViewById(R.id.imageViewShape);
         mImageViewOff = (ImageView) findViewById(R.id.imageViewOff);
         mImageViewOn = (ImageView) findViewById(R.id.imageViewOn);
+
+        startWhenLaunch();
 
         mImageViewOff.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
@@ -288,6 +291,15 @@ public class MainActivity extends Activity {
             mAlertDialog.show();
 
             getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("mValue", false).commit();
+        }
+    }
+
+    // Switch on the light when app launch
+    private void startWhenLaunch() {
+        mLaunch = mPreferences.getBoolean(SettingsActivity.KEY_AUTO, false);
+
+        if (mLaunch) {
+            onCreateIntent();
         }
     }
 

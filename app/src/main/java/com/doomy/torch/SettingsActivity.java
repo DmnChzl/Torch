@@ -49,6 +49,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
     private static final String TAG = "SettingsFragment";
     public static final String KEY_SOS = "sos";
     public static final String KEY_SCREEN = "screen";
+    public static final String KEY_AUTO = "auto";
     public static final String KEY_COLOR = "color";
     public static final String KEY_HIDE = "hide";
 	private static SettingsActivity mActivity;
@@ -56,6 +57,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
     private static Boolean mPrefBright;
     private CheckBoxPreference mSos;
     private CheckBoxPreference mScreen;
+    private CheckBoxPreference mLaunch;
     private ListPreference mColor;
     private Preference mHide;
 	private Context mContext;
@@ -75,6 +77,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
 
 		mSos = (CheckBoxPreference) findPreference(KEY_SOS);
         mScreen = (CheckBoxPreference) findPreference(KEY_SCREEN);
+        mLaunch = (CheckBoxPreference) findPreference(KEY_AUTO);
 
         mColor = (ListPreference) findPreference(KEY_COLOR);
         if(mColor.getValue()==null){

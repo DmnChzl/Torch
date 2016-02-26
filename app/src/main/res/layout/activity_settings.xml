@@ -40,6 +40,13 @@
             android:summaryOff="@string/disabled"
             android:defaultValue="false" />
 
+        <CheckBoxPreference
+            android:key="auto"
+            android:title="Auto"
+            android:summaryOn="@string/enabled"
+            android:summaryOff="@string/disabled"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
