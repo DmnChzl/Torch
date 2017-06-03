@@ -1,8 +1,8 @@
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/torch.png)
 
-This is a simple flashlight app, free and without ads.
+This is a simple flashlight app. It is [free/libre](https://www.gnu.org/philosophy/free-sw.html), gratis, and without ads.
 
-This includes features like :
+This includes features like:
 - Flash camera
 - Lighting of the screen
 - SOS mode
@@ -10,21 +10,26 @@ This includes features like :
 - Hide the icon
 - Color customization
 
-#Permissions
+# Permissions
 
 - android.permission.CAMERA
 - android.permission.WRITE_SETTINGS
 - android.permission.WAKE_LOCK
 - android.permission.BROADCAST_STICKY
 
-#QR Code
+# Download
+
+- [F-Droid](https://f-droid.org/repository/browse/?fdid=com.doomy.torch)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.doomy.torch)
+
+## QR Code
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.torch">
   <img alt="QR Code Torch"
        src="https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/qrcode.png" />
 </a>
 
-#Screenshots
+# Screenshots
 
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_2_small.png)
@@ -33,7 +38,7 @@ This includes features like :
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_2_small.png)
 
-#License
+# License
 
     Copyright (C) 2014 Damien Chazoule
 
@@ -48,4 +53,4 @@ This includes features like :
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
