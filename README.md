@@ -1,6 +1,14 @@
+Torch
+=====
+
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/torch.png)
 
 This is a simple flashlight app, free and without ads.
+
+<a href="https://f-droid.org/packages/com.doomy.torch/" target="_blank">
+<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="100"/></a>
+<a href="https://play.google.com/store/apps/details?id=com.doomy.torch" target="_blank">
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="100"/></a>
 
 This includes features like :
 - Flash camera
@@ -10,21 +18,24 @@ This includes features like :
 - Hide the icon
 - Color customization
 
-#Permissions
+Permissions
+===========
 
 - android.permission.CAMERA
 - android.permission.WRITE_SETTINGS
 - android.permission.WAKE_LOCK
 - android.permission.BROADCAST_STICKY
 
-#QR Code
+QR Code
+=======
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.torch">
   <img alt="QR Code Torch"
        src="https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/qrcode.png" />
 </a>
 
-#Screenshots
+Screenshots
+===========
 
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_2_small.png)
@@ -33,7 +44,8 @@ This includes features like :
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_2_small.png)
 
-#License
+License
+=======
 
     Copyright (C) 2014 Damien Chazoule
 
