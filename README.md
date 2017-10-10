@@ -10,21 +10,21 @@ This includes features like :
 - Hide the icon
 - Color customization
 
-#Permissions
+# Permissions
 
 - android.permission.CAMERA
 - android.permission.WRITE_SETTINGS
 - android.permission.WAKE_LOCK
 - android.permission.BROADCAST_STICKY
 
-#QR Code
+# QR Code
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.torch">
   <img alt="QR Code Torch"
        src="https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/qrcode.png" />
 </a>
 
-#Screenshots
+# Screenshots
 
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_2_small.png)
@@ -33,7 +33,7 @@ This includes features like :
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_2_small.png)
 
-#License
+# License
 
     Copyright (C) 2014 Damien Chazoule
 
