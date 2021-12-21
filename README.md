@@ -1,4 +1,4 @@
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/torch.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/images/torch.png)
 
 This is a simple flashlight app, free and without ads.
 
@@ -21,17 +21,17 @@ This includes features like :
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.torch">
   <img alt="QR Code Torch"
-       src="https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/images/qrcode.png" />
+       src="https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/images/qrcode.png" />
 </a>
 
 # Screenshots
 
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_1_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_2_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_3_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/hammerhead_4_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_1_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Torch/master/dev/screenshots/flo_2_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/hammerhead_1_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/hammerhead_2_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/hammerhead_3_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/hammerhead_4_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/flo_1_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Torch/master/dev/screenshots/flo_2_small.png)
 
 # License
 

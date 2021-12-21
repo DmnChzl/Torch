@@ -46,7 +46,7 @@
     <string name="title">Hide the icon ?</string>
     <string name="torch_title">Torch on</string>
     <string name="torch_toggle">Touch to turn off</string>
-    <string name="url" translatable="false">https://github.com/MrDoomy/Torch</string>
+    <string name="url" translatable="false">https://github.com/DmnChzl/Torch</string>
     <string name="widget" translatable="false">Widget</string>
     <string name="yes">Yes</string>
     <string name="red">Red</string>

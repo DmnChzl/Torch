@@ -22,12 +22,12 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imageViewMrDoomy"
+        android:id="@+id/imageViewAuthor"
         android:layout_width="@dimen/image_widht"
         android:layout_height="@dimen/image_height"
         android:layout_margin="10dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/img_mrdoomy"/>
+        android:src="@drawable/img_author"/>
 
     <ImageView
         android:id="@+id/imageViewStudio"
@@ -43,14 +43,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_alignLeft="@+id/imageViewMrDoomy"
-        android:layout_alignStart="@+id/imageViewMrDoomy"
-        android:layout_alignRight="@+id/imageViewMrDoomy"
-        android:layout_alignEnd="@+id/imageViewMrDoomy"
+        android:layout_alignLeft="@+id/imageViewAuthor"
+        android:layout_alignStart="@+id/imageViewAuthor"
+        android:layout_alignRight="@+id/imageViewAuthor"
+        android:layout_alignEnd="@+id/imageViewAuthor"
         android:text="@string/developer"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/greyMaterialDark"
-        android:layout_below="@+id/imageViewMrDoomy"/>
+        android:layout_below="@+id/imageViewAuthor"/>
 
     <TextView
         android:id="@+id/textViewCopyright"
